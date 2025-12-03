@@ -1,56 +1,60 @@
-:root{
-
+:root {
+  background-color: gray;
 }
 
-.top-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(10px);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+.top-header {
+  display: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--glas);
+  backdrop-filter: blur(20px);
 }
 
-.contenedor-logo{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.contenedor {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
 
-.logo-img{
-    height: 70px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    object-fit: cover;
+.tema_logo {
+  height: 70px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  object-fit: cover;
+}
+.icono {
+  font-size: 1.8rem;
 }
 
-.nav-menu{
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+  background-color: aqua;
 }
-.nav-menu a{
-    text-decoration: none;
-    font-weight: bold;
-    color: aquamarine;
-    font-size: 1rem;
-    transition: color 0.3s aese;
-    -webkit-transition: color 0.3s aese;
-    -moz-transition: color 0.3s aese;
-    -ms-transition: color 0.3s aese;
-    -o-transition: color 0.3s aese;
+.nav-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(96, 109, 105);
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
 }
 
-.nav-menu a:hover{
-    color: blueviolet;
-    text-decoration: underline;
+.nav-menu a:hover {
+  color: blueviolet;
+  text-decoration: underline;
 }
