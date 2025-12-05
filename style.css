@@ -1,0 +1,57 @@
+:root {
+  background-color: gray;
+}
+
+header {
+ background-color: rgb(5, 12, 40,0.85);
+ padding: 1rem 3rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 1px solid rgb(255, 255, 255, 0.05);
+ position: sticky;
+ top: 0;
+ z-index: 100;
+}
+
+.tema_logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tema_logo img {
+  width: 35px;
+  filter: drop-shadow(0 0 10px #0ff);
+  -webkit-filter: drop-shadow(0 0 10px #0ff);
+}
+
+.tema_logo span{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-menu ul{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-menu a{
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 1rem;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+  color: aqua;
+}
+
+
