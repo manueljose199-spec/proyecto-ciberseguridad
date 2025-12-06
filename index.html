@@ -9,13 +9,7 @@
   <body>
     <header class="top-header">
 
-      <div class="contenedor">
-        
-        <h1 class="tema_logo">
-          <img src="https://cdn-icons-png.flaticon.com/512/1048/1048949.png" alt="logo">
-          <span>Ciberseguridad</span>
-
-      </div>
+      
 
       <nav class="nav-menu">
         <ul>
@@ -30,55 +24,90 @@
     </header>
 
     <main>
-      <section id="inicio">
-        <div class="contenedor">
-        <span>seguridad digital</span>
+      <section id="inicio" class="seccion-pricipal">
+
+        <div class="contenedor_izquierdo">
+
+        <span class="etiqueta">seguridad digital</span>
         <h2>protege tu identidad digital</h2>
 
         <p>podras explorar los conseptos clave  de la Ciberseguridad y aprende a defenderte de las Amenazas modernas con las mejores practicas</p>
         
-        <a href="#amenazas">inicar</a>
-        <a href="#consejos">consejos</a>
+        <a href="#amenazas" class="consejos">inicar</a>
+        <a href="#consejos" class="consejos">consejos</a>
 
+        <div class="estadisticas">
         <h3>99%</h3><p>Protección</p>
         <h3>24/7</h3><p>analisis de vulnebilidades</p>
         <h3>1m+</h3><p>usuarios</p>
+        </div>
       </div>
+
+      <div class="contenedor-derecho">
+        
+           <div class="targeta">
+          <img class="img" src="https://cdn-icons-png.flaticon.com/512/1048/1048949.png" alt="logo">
+          <span>Ciberseguridad</span>
+          </div>
+
+      </div>
+
       </section>
 
-      <section id="amenazas">
+      <section id="amenazas" class="seccion">
+
         <h2>amenazas comunes</h2>
+
+        <div class="targetas">
+
+        <div class="target">
         <h3>pishin/h3>
           <p>correos falsos que intentan robar tus datos</p>
+        </div>
 
+        <div class="target">
           <h3>malware</h3>
           <p>programas dañinos que afectan tu pc</p>
+        </div>
 
-
-          <h3>ransomware</h3>
+        <div class="target">
+        <h3>ransomware</h3>
           <p>secuestra tus archivos y te pide dinero</p>
+        </div>
+
+        </div>
       </section>
 
-      <section id="consejos">
+      <section id="consejos" class="seccion">
         <h2>consejos basicos</h2>
+
         <ul>
+
           <li>usa contraseñas seguras</li>
           <li>activa la verificacion 2 pasos</li>
           <li>manten tus dispositivos actualizados</li>
           <li>no habraz enlaces sospechosos</li>
           <li>haz copias de seguridas</li>
+
         </ul>
+    
       </section>
 
-      <section>
+      <section id="contacto" class="seccion">
         <h2>contacto</h2>
-        <form action="">
+        <form>
           <input type="text" placeholder="ingresa tu nombre">
           <input type="email" placeholder="ingresa tu correo">
           <textarea placeholder="ingresa tu mensaje" id=""></textarea>
-          <button type="submit">enviar</button>
+          <button type="submit" class="consejos">enviar</button>
         </form>
       </section>
+
+      <footer>
+        © 2025 Ciberseguridad
+        <br>
+        José Manuel
+      </footer>
       
     </main>
   </body>
