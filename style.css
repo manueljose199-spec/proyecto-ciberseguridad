@@ -85,14 +85,21 @@ header {
 .estadisticas {
   margin-top: 2rem;
   display: flex;
-  gap: 3px;
+  gap: 20px;
 }
 
 .estadisticas h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   background-color: linear-gradient(90deg, #3cd5ff, #8da4ff);
   color: black;
+  font-weight: 800;
 }
+
+.estadisticas p{
+  margin-top: -10px;
+  font-weight: 500;
+}
+
 .contenedor-derecho {
   flex: 1;
   display: flex;
