@@ -1,5 +1,5 @@
 :root {
-  background-color: #0ff;
+  background-color:#0d1438;
 }
 
 header {
@@ -122,6 +122,15 @@ header {
   transition: 0.3s;
 }
 
+.target:hover {
+  border-color: #3cd5ff;
+  box-shadow: 0 0 20 px #3cd5ff;
+}
 
+.lista{
+
+
+
+}
 
 
