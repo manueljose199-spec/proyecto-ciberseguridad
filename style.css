@@ -1,9 +1,56 @@
 :root {
-  background-color: #80f3f3;
+  --fondo: #050b23;
+  --texto: #d8e2ff;
+
+  --primario: #8da4ff;
+  --border: #1c3d73;
+  --hover-border: #cf8bf7;
+
+  --header-bg: rgb(5, 12, 40, 0.85);
+  --nav-link: blueviolet;
+  --nav-hover: aqua;
+
+  --consejos-bg: #1c3d73;
+  --etiqueta-bg: blueviolet;
+
+  --targeta-bg: #00eaff;
+  --target-bg: #95a0d6;
+  --lista-bg: #8da4ff;
+  --form-bg: #63bfe4;
+
+  --footer-opacity: 0.5;
 }
 
+:root.light {
+  --fondo: #caccd4;
+  --texto: #1a1a1a;
+
+  --primario: #3d5afe;
+  --border: #757de8;
+  --hover-border: #536dfe;
+
+  --header-bg: #ffffffcc;
+  --nav-link: #5a35ff;
+  --nav-hover: #0099ff;
+  --consejos-bg: #5c6bc0;
+  --etiqueta-bg: #7c4dff;
+
+  --targeta-bg: #8be7ff;
+  --target-bg: #c3c9ff;
+
+  --lista-bg: #dbe2ff;
+  --form-bg: #b5d9ff;
+
+  --footer-opacity: 0.8;
+}
+
+body {
+  background-color: var(--fondo);
+  color: var(--texto);
+  transition: background 0.3s ease, color 0.3s ease;
+}
 header {
-  background-color: rgb(5, 12, 40, 0.85);
+  background-color: var(--header-bg);
   padding: 1rem 3rem;
   display: flex;
   justify-content: space-between;
@@ -40,7 +87,7 @@ header {
 
 .nav-menu a {
   text-decoration: none;
-  color: blueviolet;
+  color: var(--nav-link);
   font-size: 1rem;
   transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -51,7 +98,7 @@ header {
 
 .nav-menu a:hover,
 .nav-menu a.active {
-  color: aqua;
+  color: var(--nav-hover);
 }
 
 .seccion-pricipal {
@@ -63,10 +110,10 @@ header {
 }
 
 .consejos {
-  background-color: #1c3d73;
+  background-color: var(--consejos-bg);
   padding: 0.9rem 2rem;
   border-radius: 12px;
-  color: aliceblue;
+  color: var(--texto);
   text-decoration: none;
   transition: 0.3s;
   display: inline-block;
@@ -77,7 +124,7 @@ header {
 }
 .etiqueta {
   display: inline-block;
-  background-color: blueviolet;
+  background-color: var(--etiqueta-bg);
   padding: 6px 14px;
   border-radius: 20px;
   color: aliceblue;
@@ -95,7 +142,7 @@ header {
   font-weight: 800;
 }
 
-.estadisticas p{
+.estadisticas p {
   margin-top: -10px;
   font-weight: 500;
 }
@@ -107,7 +154,7 @@ header {
 }
 
 .targeta {
-  background-color: #00eaff;
+background-color: var(--targeta-bg);
   padding: 3rem;
   border-radius: 20px;
   border: 1px solid #153b70;
@@ -137,7 +184,7 @@ header {
 }
 
 .target {
-  background-color: #95a0d6;
+  background-color: var(--target-bg);
   padding: 2rem;
   border-radius: 20px;
   border: 1px solid #1c3d73;
@@ -148,32 +195,28 @@ header {
   border-color: #3cd5ff;
   box-shadow: 0 0 90px #3cd5ff;
 }
-.lista{
- padding: 1rem 1.5rem;
- margin: 0.7rem 0;
- border: 1px solid #1c3d73;
- border-radius: 12px;
- background-color: #8da4ff;
- color: black;
- font-size: 1rem;
- list-style: none;
- box-shadow: 0 0 10px;
- transition: 0.3s;;
+.lista {
+  padding: 1rem 1.5rem;
+  margin: 0.7rem 0;
+  border: 1px solid #1c3d73;
+  border-radius: 12px;
+  background-color: var(--lista-bg);
+  color: black;
+  font-size: 1rem;
+  list-style: none;
+  box-shadow: 0 0 10px;
+  transition: 0.3s;
 
- display: flex;
- flex-direction: column;
- align-items: center;
- text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .lista:hover {
   border-color: #cf8bf7;
   box-shadow: 0 0 20px #cf8bf7;
   transform: translateX(5px);
-  
 }
-
-
 
 form {
   max-width: 450px;
@@ -185,7 +228,7 @@ form {
 
 form input,
 form textarea {
-  background: #63bfe4;
+  background: var(--form-bg);
   border: 1px solid #153b70;
   padding: 1rem;
   border-radius: 12px;
