@@ -21,7 +21,7 @@
   --footer-opacity: 0.5;
 }
 
-:root.light {
+html.light {
   --fondo: #caccd4;
   --texto: #1a1a1a;
 
