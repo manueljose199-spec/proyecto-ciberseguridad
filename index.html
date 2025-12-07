@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ciberseguridad</title>
+    <link rel="icon" type="image/png" href="favicon/icono.png">
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -34,7 +35,7 @@
         <p>podras explorar los conceptos clave  de la Ciberseguridad y aprende a defenderte de las Amenazas modernas con las mejores practicas</p>
         
         <a href="#amenazas" class="consejos">inicar</a>
-        <a href="#consejos" class="consejos">consejos</a>
+        <a href="#consejo" class="consejos">consejos</a>
 
         <div class="estadisticas">
         <h3>99%</h3><p>Protección</p>
@@ -62,43 +63,65 @@
 
         <div class="target">
         <h3>phishin</h3>
-          <p>correos falsos que intentan robar tus datos</p>
+        <p>correos falsos que intentan robar tus datos</p>
+        <img src="favicon/phising.png"  width="50px">
         </div>
 
         <div class="target">
           <h3>malware</h3>
           <p>programas dañinos que afectan tu pc</p>
+          <img src="./favicon/malware.png" width="50px" alt="">
         </div>
 
         <div class="target">
         <h3>ransomware</h3>
           <p>secuestra tus archivos y te pide dinero</p>
+          <img src="./favicon//ransomware.png" width="50px" alt="">
         </div>
 
         </div>
       </section>
 
-      <section id="consejos" class="seccion">
+      <section id="consejo" class="seccion">
         <h2>consejos basicos</h2>
 
         <ul>
 
-          <li>usa contraseñas seguras</li>
-          <li>activa la verificacion 2 pasos</li>
-          <li>manten tus dispositivos actualizados</li>
-          <li>no abras enlaces sospechosos</li>
-          <li>haz copias de seguridad</li>
+          <li class="lista">
+            <img src="./favicon/contraseñas-seguras.png" width="50px">
+            <span>Usar contraseñas seguras</span>
+          </li>
+          <li class="lista">
+            <img src="./favicon/verificacion-2-paso.png" width="50px">
+            <span>Activar la verificacion 2 paso</span>
+          </li>
+          <li class="lista">
+            <img src="./favicon/manten-dispositivos-actualizados.png" width="50px">
+            <span>Actualiza tus dispositivos</span>
+          </li>
+          <li class="lista">
+            <img src="./favicon/enlaces-sospechoso.png" width="50px">
+            <span>No entres a enlaces sospechosos</span>
+          </li>
+          <li class="lista">
+            <img src="./favicon/copias-de-seguridad.png" width="50px">
+            <span>Implementa copias de seguridad/span>
+          </li>
 
         </ul>
     
       </section>
 
       <section id="contacto" class="seccion">
-        <h2>contacto</h2>
+        <h2>Contacto</h2>
         <form>
+          <label for="name">Ingresa tu nombre</label>
           <input type="text" placeholder="ingresa tu nombre">
+          <label for="email">Ingresa tu correo</label>
           <input type="email" placeholder="ingresa tu correo">
+          <label for="mensaje">Ingresa tu mensaje</label>
           <textarea placeholder="ingresa tu mensaje" id=""></textarea>
+          <label for="info">Enviar información</label>
           <button type="submit" class="consejos">enviar</button>
         </form>
       </section>
