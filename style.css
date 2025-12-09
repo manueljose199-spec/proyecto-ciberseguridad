@@ -133,6 +133,8 @@ header {
   margin-top: 2rem;
   display: flex;
   gap: 20px;
+  color: #0099ff;
+
 }
 
 .estadisticas h3 {
@@ -140,6 +142,12 @@ header {
   background-color: linear-gradient(90deg, #3cd5ff, #8da4ff);
   color: black;
   font-weight: 800;
+  background-color: #0099ff;
+  border-radius: 90px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -o-border-radius: 90px;
 }
 
 .estadisticas p {
