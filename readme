@@ -39,7 +39,8 @@ El diseño incluye imágenes, favicon y un boton para activar modo oscuro.
 ├─index.html
 ├─style.css
 ├─boton_toggle.js
-├─favicon/
+├─assets/favicon/
+├─img
 │├─icono.png
 │├─malware.png
 │├─pishing.png
