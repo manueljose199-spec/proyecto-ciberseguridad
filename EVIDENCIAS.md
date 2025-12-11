@@ -1,15 +1,16 @@
 ## URL activa
-![alt text](image.png)
+![alt text](imagen-de-url-activa.png)
+
 
 ## sitio abierto en el navegador
 
 - Tema Oscuro
  
-![alt text](image-1.png)
+![alt text](vista-del-sitio-tema-oscuro.png)
 
 - Tema claro
   
-![alt text](image-2.png)
+![alt text](vista-del-sitio-tema-claro.png)
 
 ## Aprendizajes
 
