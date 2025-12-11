@@ -1,0 +1,122 @@
+# proyecto de Ciberseguridad
+
+**Autor:** José Manuel Hernandez Bartolo
+**Proyecto:** Página de **Ciberseguridad**
+**Repositorio:** https://github.com/manueljose199-spec/proyecto-ciberseguridad
+**GitHub Pages:** https://manueljose199-spec.github.io/proyecto-ciberseguridad/
+
+---------------------------------------------------------------------------------------------------
+
+## Descripción
+
+Este proyecto es una pagina  web basica relacionada con temas de ciberseguridad
+Esta construida en **HTML**, **CSS**, Y **JavaScript**, incluye una estructura simple, un botonm interativo toggle y componentes iniciales de interfaz que sirven como base para futuras mejoras
+
+con el objetivo de mostrar :
+
+* Estructura semántica en HTML
+* Gestión con Git y Github
+* Publicacón de GitHub Pages
+* Documentación profecional README
+
+## contenio del sitio
+
+La página contiene las siguientes selecciones:
+
+**Inicio**
+**Amenazas**
+**Consejos**
+**Contacto**
+**Footer**
+
+El diseño incluye imágenes, favicon y un boton para activar modo oscuro.
+
+
+## Estructura del repositorio
+
+/raiz
+
+├─index.html
+├─style.css
+├─boton_toggle.js
+├─favicon/
+│├─icono.png
+│├─malware.png
+│├─pishing.png
+│└─ ...
+├─Readme.md
+└─ evidencias
+
+## como ejecutar el proyecto
+
+## 🚀 cómo ejecutar el proyecto
+### 🔹Ver en línea  (GitHub Pages)
+**url** https://manueljose199-spec.github.io/proyecto-ciberseguridad/
+
+### 🔹Ver en local
+
+1. clonar el repo
+   git clone https://github.com/manueljose199-spec/proyecto-ciberseguridad
+
+2. Entrar en el directoro
+   cd <nombre-del-repositorio>
+
+3. Abrir el index.html en el navegador
+
+🌐
+ ## pasos para desplegar en GitHub Pages
+
+1. sube tu proyecto al repositorio de GitHub
+2. en GitHub , dirigete y abre tu repositorio
+3. ve a settings
+4. en el menu lateral baja hata pages
+5. en la seccion **build and deployment**
+-- en source : selecciona **deploy from branch**
+-- En branch: selecciona **main** y caperta **/(root)**
+6. guardar
+7. GitHub generara un enlace como este 
+   
+
+## Tecnologias utilizadas
+
+**HTML5** para la estructura principal
+**css** para estilos y diseño
+**JavaScrip** para funciones interactivas
+**GitHub Pages**  para el despliegue
+
+
+
+
+## limites y proximos pasos
+
+## limites
+
+- Diseño basico: tiene un diseño principal implementado pero podrian implementarse mas detalles
+- Validaciones y seguridad: el formulario no tiene  validaciones ni limpieza
+- Contenido parcial: solo es la pagina principal
+- Integracion o consumo de servicios externos
+
+### Proximos pasos
+- Agregar validacion a formularios y manejo de errores
+- hacer resposivo y mejorar accesivilidad
+- Integrar servicios externos como por ejemplo una API
+- Mejorar el diseño en css
+  
+
+## Evidencias
+
+🎓 Aprendizaje
+
+Fácil: estructura de HTML y navegacion
+Dificíl: estilos
+
+## etiquetas usadas
+
+header, nav, main, seccion, footer, permiten una mejor organización semantica
+
+form, label, input para el formularios
+
+## comits
+
+cambios pequeños: estructura, secciones, CSS
+

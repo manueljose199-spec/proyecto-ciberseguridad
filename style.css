@@ -42,6 +42,8 @@ html.light {
   --form-bg: #b5d9ff;
 
   --footer-opacity: 0.8;
+
+  
 }
 
 body {
@@ -133,7 +135,6 @@ header {
   margin-top: 2rem;
   display: flex;
   gap: 20px;
-  color: #0099ff;
 
 }
 
@@ -142,7 +143,7 @@ header {
   background-color: linear-gradient(90deg, #3cd5ff, #8da4ff);
   color: black;
   font-weight: 800;
-  background-color: #0099ff;
+  background-color: #98d4fc;
   border-radius: 90px;
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
